@@ -2,6 +2,8 @@ using System.Text;
 using System.Text.Json.Serialization;
 using backend_dotnet8.Core.DbContext;
 using backend_dotnet8.Core.Entities;
+using backend_dotnet8.Core.Interfaces;
+using backend_dotnet8.Core.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -24,6 +26,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     );
 
 //Dependency Injection
+builder.Services.AddScoped<ILogService, LogService>();
 
 // Add Identity
 builder.Services
@@ -35,7 +38,7 @@ builder.Services
 builder.Services.Configure<IdentityOptions>(options =>
 {
     options.Password.RequiredLength = 8;
-    options.Password.RequireDigit = false;
+    options.Password.RequireDigit = true;
     options.Password.RequireLowercase = false;
     options.Password.RequireUppercase = false;
     options.Password.RequireNonAlphanumeric = false;
@@ -61,6 +64,8 @@ builder.Services.AddAuthentication(options => {
             ValidIssuer = builder.Configuration["JWT:ValidIssuer"],
             ValidAudience = builder.Configuration["JWT:ValidAudience"],
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:Secret"]))
+            ValidateLifetime = true, // Validar la expiración del token
+            ClockSkew = TimeSpan.Zero // Para evitar tiempos de gracia después de la expiración
         };
     });
 

@@ -18,10 +18,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Core\Interfaces\" />
-    <Folder Include="Core\Services\" />
-  </ItemGroup>
-
 </Project>

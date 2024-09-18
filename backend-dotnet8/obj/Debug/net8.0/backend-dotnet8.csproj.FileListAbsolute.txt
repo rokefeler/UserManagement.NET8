@@ -285,3 +285,4 @@ D:\dev\backend-net8\backend-dotnet8\obj\Debug\net8.0\refint\backend-dotnet8.dll
 D:\dev\backend-net8\backend-dotnet8\obj\Debug\net8.0\backend-dotnet8.pdb
 D:\dev\backend-net8\backend-dotnet8\obj\Debug\net8.0\backend-dotnet8.genruntimeconfig.cache
 D:\dev\backend-net8\backend-dotnet8\obj\Debug\net8.0\ref\backend-dotnet8.dll
+C:\Users\Sistemas\source\repos\backend-dotnet8\backend-dotnet8\obj\Debug\net8.0\backend-dotnet8.sourcelink.json

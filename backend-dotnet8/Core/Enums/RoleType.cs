@@ -5,6 +5,5 @@
         ADMIN,
         MANAGER,
         USER
-
     }
 }
