@@ -204,7 +204,7 @@ namespace backend_dotnet8.Core.Services
             };
             
             var createuserResul = await _userManager.CreateAsync(newUser, registerDto.Password);
-            if (createuserResul.Succeeded)
+            if (!createuserResul.Succeeded)
             {
                 var errorString = "User Creation failed because";
                 foreach (var error in createuserResul.Errors)
@@ -295,7 +295,7 @@ namespace backend_dotnet8.Core.Services
                     else
                     {
                         await _userManager.RemoveFromRolesAsync(user, userRoles);
-                        await _userManager.AddToRolesAsync(user, updateRoleDto.NewRole.ToString());
+                        await _userManager.AddToRoleAsync(user, updateRoleDto.NewRole.ToString());
                         await _logService.SaveNewLog(updateRoleDto.UserName, $"{updateRoleDto.UserName} has been updated to {updateRoleDto.NewRole}");
                         return new GeneralServiceResponseDto()
                         {
