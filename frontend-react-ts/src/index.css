@@ -1,0 +1,24 @@
+@tailwind base;
+@layer base {
+  body {
+    @apply min-h-screen bg-gray-100
+  }
+}
+@tailwind components;
+@layer components{
+  input {
+    @apply w-full outline-none border border-gray-200 px-2 py-1 rounded-lg;
+  }
+  .pageTemplate1 {
+    @apply w-full lg:w-4/5 min-h-[calc(100vh-48px)];
+    
+  },
+  .pageTemplate2 {
+    
+  },
+  .pageTemplate3 {
+    
+  }
+}
+
+@tailwind utilities;

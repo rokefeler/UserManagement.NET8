@@ -114,6 +114,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors(options =>
+{
+    options.AllowAnyHeader(); // Permitir cualquier encabezado de configuració
+    options.AllowAnyMethod(); // Permitir cualquier metodo
+    options.AllowAnyOrigin(); // Permitir cualquier origen
+});
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();

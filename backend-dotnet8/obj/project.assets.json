@@ -4435,23 +4435,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sistemas\\.nuget\\packages\\": {},
+    "C:\\Users\\FamiliaRoqueSosa\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sistemas\\source\\repos\\backend-dotnet8\\backend-dotnet8\\backend-dotnet8.csproj",
+      "projectUniqueName": "D:\\dev\\backend-net8\\backend-dotnet8\\backend-dotnet8.csproj",
       "projectName": "backend-dotnet8",
-      "projectPath": "C:\\Users\\Sistemas\\source\\repos\\backend-dotnet8\\backend-dotnet8\\backend-dotnet8.csproj",
-      "packagesPath": "C:\\Users\\Sistemas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sistemas\\source\\repos\\backend-dotnet8\\backend-dotnet8\\obj\\",
+      "projectPath": "D:\\dev\\backend-net8\\backend-dotnet8\\backend-dotnet8.csproj",
+      "packagesPath": "C:\\Users\\FamiliaRoqueSosa\\.nuget\\packages\\",
+      "outputPath": "D:\\dev\\backend-net8\\backend-dotnet8\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Sistemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\FamiliaRoqueSosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
