@@ -1,12 +1,12 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import { PATH_DASHBOARD, PATH_PUBLIC } from "./paths";
-import AuthGuard from "./authGuard";
+import AuthGuard from "../auth/authGuard";
 import {
   allAccessRoles,
   managerAccessRoles,
   adminAccessRoles,
   ownerAccessRoles,
-} from "./auth.utils";
+} from "../auth/auth.utils";
 import Layout from "../components/layout";
 import AdminPage from "../pages/dashboard/AdminPage";
 import AllMessagesPage from "../pages/dashboard/AllMessagesPage";
@@ -19,12 +19,12 @@ import SendMessagePage from "../pages/dashboard/SendMessagePage";
 import SystemLogsPage from "../pages/dashboard/SystemLogsPage";
 import UpdateRolePage from "../pages/dashboard/UpdateRolePage";
 import UserPage from "../pages/dashboard/UserPage";
-import UseManageMentPage from "../pages/dashboard/UseManageMentPage";
+import UseManageMentPage from "../pages/dashboard/UsersManagementPage";
 import HomePage from "../pages/public/HomePage";
 import LoginPage from "../pages/public/LoginPage";
-import NotFoundPage from "../pages/NotFoundPage";
-import RegisterPage from "../pages/auth/RegisterPage";
-import UnauthorizedPage from "../pages/auth/UnauthorizedPage";
+import NotFoundPage from "../pages/public/NotFoundPage";
+import RegisterPage from "../pages/public/RegisterPage";
+import UnauthorizedPage from "../pages/public/UnauthorizedPage";
 
 const GlobalRouter = () => {
   return (

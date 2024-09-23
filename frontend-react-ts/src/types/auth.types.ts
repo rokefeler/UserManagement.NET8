@@ -1,4 +1,4 @@
-export interface iRegisterDto {
+export interface IRegisterDto {
   firstName: string;
   lastName: string;
   userName: string;
