@@ -83,8 +83,7 @@
               "RelativeToolTip": "backend-dotnet8\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-20T00:50:29.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T00:50:29.893Z"
             },
             {
               "$type": "Document",
@@ -106,7 +105,7 @@
               "RelativeDocumentMoniker": "backend-dotnet8\\Controllers\\MessagesController.cs",
               "ToolTip": "D:\\dev\\backend-net8\\backend-dotnet8\\Controllers\\MessagesController.cs",
               "RelativeToolTip": "backend-dotnet8\\Controllers\\MessagesController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwDEAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T17:20:01.066Z",
               "EditorCaption": ""
@@ -121,8 +120,7 @@
               "RelativeToolTip": "backend-dotnet8\\Controllers\\LogsController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T17:19:38.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T17:19:38.427Z"
             },
             {
               "$type": "Document",
@@ -146,8 +144,7 @@
               "RelativeToolTip": "backend-dotnet8\\Program.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAADwv3cAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T21:51:25.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T21:51:25.696Z"
             },
             {
               "$type": "Document",

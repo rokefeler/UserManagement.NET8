@@ -1,9 +1,11 @@
-import React from 'react'
+import GlobalRouter from './routes/index';
 
 const App = () => {
   return (
-    <div className='bg-red-500 p-7' >App</div>
+    <div className='bg-red-500 p-8' >
+      <GlobalRouter />
+    </div>
   )
 }
 
-export default App
+export default App;
