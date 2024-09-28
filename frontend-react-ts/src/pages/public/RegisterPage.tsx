@@ -151,7 +151,6 @@ const RegisterPage = () => {
             variant="primary"
             type="submit"
             label="Register"
-            onClick={() => {}}
             loading={loading}
           />
         </div>

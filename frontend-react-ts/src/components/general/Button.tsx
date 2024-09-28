@@ -2,7 +2,7 @@ interface IProps {
   variant: "primary" | "secondary" | "danger" | "light";
   type: "button" | "submit";
   label: string;
-  onClick: () => void;
+  onClick?: () => void;
   loading?: boolean;
   disabled?: boolean;
 }
@@ -45,7 +45,7 @@ const Button = ({
   return (
     <button
       type={type}
-      onClick={onClick}
+      onClick={onClick ? onClick : undefined} //solo llamamos si existe
       className={classNameCreator()}
       disabled={disabled}
     >

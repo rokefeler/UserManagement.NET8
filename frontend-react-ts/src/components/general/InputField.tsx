@@ -26,7 +26,7 @@ const InputField = ({
   };
 
   const dynamicClassName = error
-    ? "border-red-500 rounded-lg"
+    ? "border-red-500 rounded-lg bg-error-stripes"
     : "border-[#754eb477]";
 
   return (
@@ -40,7 +40,7 @@ const InputField = ({
             {...field}
             autoComplete="off"
             type={inputType}
-            className={dynamicClassName}
+            className={`${dynamicClassName} p-2`} // Clase condicional aplicada aquí {dynamicClassName}
           />
         )}
       />
